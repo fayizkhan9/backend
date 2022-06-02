@@ -1,0 +1,20 @@
+
+
+.customButton {
+    width: 170px;
+    margin-left: -3px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+@media (max-width: 720px)  {
+    .customButton {
+        width: 227px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        margin-top: -3px;
+        margin-left: 0;
+        border-bottom-left-radius: 5px;
+    }
+  }
